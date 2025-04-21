@@ -34,10 +34,10 @@ body {
 }
 .avatar,
 .profile_info {
-    text-align: center; /* Жаңа қосылды */
-    display: flex; /* Жаңа қосылды */
-    flex-direction: column; /* Жаңа қосылды */
-    align-items: center; /* Жаңа қосылды */
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
 }
 
 img {
@@ -58,7 +58,6 @@ h1 {
 .location {
     color:hsl(75, 94%, 57%);
     font-weight: 600;
-    margin-top: -7px;
 }
 
 .quoter {
