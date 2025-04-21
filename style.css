@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background:hsl(0, 0%, 12%);
+    max-width: 25rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.avatar,
+.profile_info {
+    text-align: center; /* Жаңа қосылды */
+    display: flex; /* Жаңа қосылды */
+    flex-direction: column; /* Жаңа қосылды */
+    align-items: center; /* Жаңа қосылды */
+}
+
+img {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+
+.location {
+    color:hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: -7px;
+}
+
+.quoter {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 15px;
+    background:hsl(0, 0%, 20%);
+    border: none;
+    margin: 5px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
